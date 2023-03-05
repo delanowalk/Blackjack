@@ -183,7 +183,7 @@ def Hand_21(shuffle, Deck, cards_delt):
                 print('shit Idk')
                 return
 
-
+# 2nd
 def Game_21(Amount_of_Decks):
     shuffle = Shoe(Amount_of_Decks)
     Deck = Deck_C(Amount_of_Decks)
