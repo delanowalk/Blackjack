@@ -48,9 +48,9 @@ def deck_amount(decks: object) -> object:
 
     return deck
 
-
-"Defines the deck and the values for each card two slots cause Aces suck"
-
+"""
+Defines the deck and the values for each card two slots cause Aces suck
+"""
 
 def shoe(amount_of_decks):
     deck = deck_amount(amount_of_decks)
@@ -69,9 +69,9 @@ def shoe(amount_of_decks):
             print("Cards shuffled")
     return shuffle
 
-
-"Creates the shuffle as an array that we will count though"
-
+"""
+Creates the shuffle as an array that we will count though
+"""
 
 def sum_cards(arr):
     deck = deck_amount(1)
@@ -96,9 +96,9 @@ def sum_cards(arr):
                 i = n
     return sum_arr
 
-
-"sum for array, edge cases and not greater then 21"
-
+"""
+sum for array, edge cases and not greater then 21
+"""
 
 def counting_card(cards_delt, shuffle):
     cards_delt = cards_delt
@@ -116,9 +116,9 @@ def counting_card(cards_delt, shuffle):
             i += 1
     return high_low_count
 
-
-"counting cards"
-
+"""
+counting cards
+"""
 
 def hand_21(shuffle, deck, cards_delt):
 
