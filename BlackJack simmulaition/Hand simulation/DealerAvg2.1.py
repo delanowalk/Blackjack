@@ -146,7 +146,9 @@ def dealer_avg_game(dealer_card1: object, amount_of_hands):
     percent_20 = 100*(count_20/amount_of_hands)
     percent_21 = 100*(count_21/amount_of_hands)   
     percent_bust = 100*(count_bust/amount_of_hands)
-    
+
+    dealer_avg = (count_17 * 17 + count_18 * 18 + count_19 * 19 + count_20 * 20 + count_21 * 21) / (amount_of_hands - count_bust)
+
     print(f'Amount of 17    :{count_17}')
     print(f'Amount of 18    :{count_18}')
     print(f'Amount of 19    :{count_19}')
@@ -160,10 +162,12 @@ def dealer_avg_game(dealer_card1: object, amount_of_hands):
     print(f'Percent of 20   :{percent_20}')
     print(f'Percent of 21   :{percent_21}')
     print(f'Percent of Bust :{percent_bust}')
+    print(f'dealer_avg      :{dealer_avg}')
 
     print("End of game")
     return
 
 
-dealer_avg_game('A', 100000)
+dealer_avg_game('7', 10000)
+
 
