@@ -12,6 +12,9 @@ revamping playing hands out
 it works I think
 
 works problem with paying out doubling still
+
+7.14.25
+lol very broken 
 """
 
 import random
