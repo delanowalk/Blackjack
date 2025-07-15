@@ -4,8 +4,21 @@ Created on Thur May 18 8:49:38 2023
 
 @author: dwalker
 
-rework of whole program from cyclical to linear coding
-naw not doing that just going to fix doubling down
+BlackJack2.1.1 - 2.1.3 Game play no basic stragerty
+
+2.1.3 testing 7/14/2025
+
+Dealer Having BlackJack doesnt end hand I had "Q" , "2" vs A
+
+Should ask for insurance check for blackJack then end hand if it has blackjack insurance bet not actually changing bankroll
+
+Program allowed me to split "10", and a "Q" not sure what rules are actually on that
+
+Surrender Crash game lol
+
+Blackjack not working fully is paying out 1.5 giving options to stand, hit, .... not sure it'll pay out if dealer hits 21 it should unless dealer has blackjack
+
+Dealer not checking for blackjack
 """
 
 import random
